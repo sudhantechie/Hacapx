@@ -1,0 +1,10 @@
+time
+dash
+plotly.graph_objs
+wmi
+argparse
+subprocess
+random
+psutil
+threading
+os
