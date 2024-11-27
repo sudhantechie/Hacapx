@@ -101,11 +101,12 @@ options:
 
    4. **Displaying Help Message:**
 
-    To see all available options and usage instructions, use the help flag:
+   To see all available options and usage instructions, use the help flag:
     
       python hacapx.py --help
       
-     Output:
+   Output:
+     
      usage: hacapx.py [-h] [--graph] [--sys-per] [--usb] [--s-duration S_DURATION] [--port PORT] [--interval INTERVAL]
                  [--sys-update] [--graphics] [--bios]
 
