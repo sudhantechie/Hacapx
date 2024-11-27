@@ -1,18 +1,21 @@
 # System Performance Monitoring and Analysis Tool
 
-Requirements
-------------
+## Requirements
 
-* time
-* dash
-* plotly.graph_objs
-* wmi
-* argparse
-* subprocess
-* random
-* psutil
-* threading
-* os
+The following Python libraries are required to run the tool:
+
+- `time`
+- `dash`
+- `plotly.graph_objs`
+- `wmi`
+- `argparse`
+- `subprocess`
+- `random`
+- `psutil`
+- `threading`
+- `os`
+
+---
 
 
 Download/Installation
@@ -69,12 +72,10 @@ options:
 
   1. **Stress Testing:**
 
-   ```
     python hacapx.py --s-duration 10
-   ```
 
   Output:
-    ```
+    
     Running stress tests...
     Starting CPU stress test...
     Starting Memory stress test...
@@ -88,28 +89,23 @@ options:
     Initial Memory Usage: 75.2%
     Final Memory Usage: 80.1%
     All stress tests completed.
-    ```
+    
 
    2. **Get Update and Hotfixes Info:**
 
-   ```
      python hacapx.py --sys-update
-   ```
+   
    3. **Get Real-time metrics:**
 
-   ```
-      python hacapx.py --graph --interval 1 --port 80 
-   ```
+     python hacapx.py --graph --interval 1 --port 80 
+
    4. **Displaying Help Message:**
 
     To see all available options and usage instructions, use the help flag:
     
-   ```
       python hacapx.py --help
-   ```
+      
      Output:
-   ```
      usage: hacapx.py [-h] [--graph] [--sys-per] [--usb] [--s-duration S_DURATION] [--port PORT] [--interval INTERVAL]
                  [--sys-update] [--graphics] [--bios]
-   ```
 
