@@ -89,10 +89,11 @@ options:
     ```
 
    2. **Get Update and Hotfixes Info:**
+
     ```
     python hacapx.py --sys-update
     ```
-  3. **Get Real-time metrics:**
+  4. **Get Real-time metrics:**
 
      ```
      python hacapx.py --graph --interval 1 --port 80 
