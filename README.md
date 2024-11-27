@@ -69,7 +69,9 @@ options:
 
   1. **Stress Testing:**
 
+    ```
     python hacapx.py --s-duration 10
+     ```
 
   Output:
     ```
@@ -91,18 +93,18 @@ options:
    2. **Get Update and Hotfixes Info:**
 
     ```
-    python hacapx.py --sys-update
+     python hacapx.py --sys-update
     ```
-  4. **Get Real-time metrics:**
+   3. **Get Real-time metrics:**
 
      ```
-     python hacapx.py --graph --interval 1 --port 80 
+      python hacapx.py --graph --interval 1 --port 80 
      ```
-  5. **Displaying Help Message:**
+   4. **Displaying Help Message:**
 
-     To see all available options and usage instructions, use the help flag:
+    To see all available options and usage instructions, use the help flag:
      ```
-     python hacapx.py --help
+      python hacapx.py --help
      ```
      Output:
      ```
