@@ -93,10 +93,11 @@ options:
     python hacapx.py --sys-update
     ```
   3. **Get Real-time metrics:**
+
      ```
      python hacapx.py --graph --interval 1 --port 80 
      ```
-  4. **Displaying Help Message:**
+  5. **Displaying Help Message:**
 
      To see all available options and usage instructions, use the help flag:
      ```
