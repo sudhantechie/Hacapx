@@ -18,7 +18,7 @@ Requirements
 Download/Installation
 ---------------------
 
-* git clone https://github.com/your-username/vulnerability_tool.git
+* git clone https://github.com/sudhantechie/Hacapx.git
 * cd hacapx
 * pip install -r requirements.txt
 
