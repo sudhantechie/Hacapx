@@ -22,7 +22,7 @@ Download/Installation
 ---------------------
 
 * git clone https://github.com/sudhantechie/Hacapx.git
-* cd hacapx
+* cd Hacapx
 * pip install -r requirements.txt
 
 
