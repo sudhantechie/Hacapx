@@ -6,7 +6,7 @@ The following Python libraries are required to run the tool:
 
 - `time`
 - `dash`
-- `plotly.graph_objs`
+- `plotly`
 - `wmi`
 - `argparse`
 - `subprocess`
