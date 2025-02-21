@@ -1,10 +1,5 @@
-time
 dash
-plotly.graph_objs
+plotly
 wmi
-argparse
-subprocess
-random
 psutil
-threading
-os
+
